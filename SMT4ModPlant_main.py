@@ -394,9 +394,45 @@ def solution_to_json(model, process_steps, resources, step_resource_to_caps_prop
                             "property_id": prop.get('property_ID'),
                             "property_name": prop.get('property_name'),
                             "property_unit": prop.get('property_unit'),
-                            "value_min": prop.get('valueMin'),
-                            "value_max": prop.get('valueMax')
                         }
+                        
+                        # 优先检查是否有离散值
+                        discrete_values = []
+                        for key in prop.keys():
+                            if key.startswith('value') and key != 'valueType' and key != 'valueMin' and key != 'valueMax':
+                                val = prop.get(key)
+                                if val is not None:
+                                    try:
+                                        # 尝试转换为数字
+                                        num_val = float(val)
+                                        discrete_values.append(num_val)
+                                    except (ValueError, TypeError):
+                                        # 如果转换失败，保留原始值
+                                        discrete_values.append(val)
+                        
+                        # 根据属性类型设置值表示
+                        value_min = prop.get('valueMin')
+                        value_max = prop.get('valueMax')
+                        
+                        if discrete_values:
+                            # 有离散值
+                            if len(discrete_values) == 1:
+                                # 只有一个离散值，当作具体值
+                                prop_info["value"] = discrete_values[0]
+                                prop_info["value_type"] = "exact"
+                            else:
+                                # 多个离散值
+                                prop_info["values"] = discrete_values
+                                prop_info["value_type"] = "discrete_set"
+                        elif value_min is not None or value_max is not None:
+                            # 有范围值
+                            prop_info["value_min"] = value_min
+                            prop_info["value_max"] = value_max
+                            prop_info["value_type"] = "range"
+                        else:
+                            # 没有值信息
+                            prop_info["value_type"] = "unspecified"
+                        
                         cap_info["matched_properties"].append(prop_info)
                     
                     capability_details.append(cap_info)
@@ -508,7 +544,7 @@ def block_solution(solver, model):
 print("\n==== All possible resource assignments ====")
 count = 0
 found_model = None
-solutions = []  # 存储所有解决方案
+solutions = []  # Storage All Solutions
 
 while s.check() == sat:
     m = s.model()
@@ -516,7 +552,7 @@ while s.check() == sat:
         print_solution(m)
         found_model = m
         
-        # 将解决方案转换为JSON格式并保存
+        # Convert the solution to JSON format and save it.
         solution_json = solution_to_json(m, process_steps, resources, step_resource_to_caps_props, Assignment, recipe, capabilities, count + 1)
         solutions.append(solution_json)
         
@@ -528,7 +564,7 @@ if count == 0:
 else:
     print(f"Number of combinations found: {count}")
     
-    # 保存所有解决方案到JSON文件
+    # Save all solutions to a JSON file
     output_filename = "solutions.json"
     with open(output_filename, 'w', encoding='utf-8') as f:
         json.dump({
@@ -538,7 +574,7 @@ else:
     
     print(f"All solutions saved to {output_filename}")
     
-    # 只对第一个有效的解决方案进行后处理
+    # Post-processing is performed only on the first valid solution.
     postprocess_negate_unused_assignments_with_model(
         "smt_model_annotated.smt2", assignment_varnames, found_model, assignment_varmap
     )

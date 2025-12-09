@@ -33,15 +33,19 @@
                   "property_id": "http://qudt.org/vocab/quantitykind/RotationalVelocity",
                   "property_name": "RevolutionsPerMinute",
                   "property_unit": "http://qudt.org/vocab/unit/REV-PER-MIN",
-                  "value_min": null,
-                  "value_max": null
+                  "values": [
+                    200.0,
+                    290.0
+                  ],
+                  "value_type": "discrete_set"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "PulseTimeHigh",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "1",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             }
@@ -71,7 +75,8 @@
                   "property_name": "Litre",
                   "property_unit": "http://si-digital-framework.org/SI/units/litre",
                   "value_min": "0",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             }
@@ -107,14 +112,16 @@
                   "property_name": "SetTemperature",
                   "property_unit": "http://si-digital-framework.org/SI/units/degreeCelsius",
                   "value_min": "24.81",
-                  "value_max": "65.67"
+                  "value_max": "65.67",
+                  "value_type": "range"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "HoldingTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": "483"
+                  "value_max": "483",
+                  "value_type": "range"
                 }
               ]
             }
@@ -155,15 +162,19 @@
                   "property_id": "http://qudt.org/vocab/quantitykind/RotationalVelocity",
                   "property_name": "RevolutionsPerMinute",
                   "property_unit": "http://qudt.org/vocab/unit/REV-PER-MIN",
-                  "value_min": null,
-                  "value_max": null
+                  "values": [
+                    200.0,
+                    290.0
+                  ],
+                  "value_type": "discrete_set"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "PulseTimeHigh",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "1",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             }
@@ -193,7 +204,8 @@
                   "property_name": "Litre",
                   "property_unit": "http://si-digital-framework.org/SI/units/litre",
                   "value_min": "0",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             }
@@ -229,14 +241,16 @@
                   "property_name": "SetTemperature",
                   "property_unit": "http://si-digital-framework.org/SI/units/degreeCelsius",
                   "value_min": "20.29",
-                  "value_max": "69.3"
+                  "value_max": "69.3",
+                  "value_type": "range"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "HoldingTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": "383"
+                  "value_max": "383",
+                  "value_type": "range"
                 }
               ]
             }
@@ -277,15 +291,19 @@
                   "property_id": "http://qudt.org/vocab/quantitykind/RotationalVelocity",
                   "property_name": "RevolutionsPerMinute",
                   "property_unit": "http://qudt.org/vocab/unit/REV-PER-MIN",
-                  "value_min": null,
-                  "value_max": null
+                  "values": [
+                    200.0,
+                    290.0
+                  ],
+                  "value_type": "discrete_set"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "PulseTimeHigh",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "1",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             }
@@ -315,7 +333,8 @@
                   "property_name": "Litre",
                   "property_unit": "http://si-digital-framework.org/SI/units/litre",
                   "value_min": "0",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             }
@@ -353,14 +372,16 @@
                   "property_name": "SetTemperature",
                   "property_unit": "http://si-digital-framework.org/SI/units/degreeCelsius",
                   "value_min": "25.75",
-                  "value_max": "65"
+                  "value_max": "65",
+                  "value_type": "range"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "HoldingTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": "453"
+                  "value_max": "453",
+                  "value_type": "range"
                 }
               ]
             },
@@ -372,14 +393,16 @@
                   "property_name": "SetTemperature",
                   "property_unit": "http://si-digital-framework.org/SI/units/degreeCelsius",
                   "value_min": "0",
-                  "value_max": "64"
+                  "value_max": "64",
+                  "value_type": "range"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "HoldingTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": "600"
+                  "value_max": "600",
+                  "value_type": "range"
                 }
               ]
             },
@@ -391,14 +414,16 @@
                   "property_name": "SetTemperature",
                   "property_unit": "http://si-digital-framework.org/SI/units/degreeCelsius",
                   "value_min": "0",
-                  "value_max": "100"
+                  "value_max": "100",
+                  "value_type": "range"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "HoldingTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": "600"
+                  "value_max": "600",
+                  "value_type": "range"
                 }
               ]
             }
@@ -439,15 +464,19 @@
                   "property_id": "http://qudt.org/vocab/quantitykind/RotationalVelocity",
                   "property_name": "RevolutionsPerMinute",
                   "property_unit": "http://qudt.org/vocab/unit/REV-PER-MIN",
-                  "value_min": null,
-                  "value_max": null
+                  "values": [
+                    200.0,
+                    290.0
+                  ],
+                  "value_type": "discrete_set"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "PulseTimeHigh",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "1",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             }
@@ -477,7 +506,8 @@
                   "property_name": "Litre",
                   "property_unit": "http://si-digital-framework.org/SI/units/litre",
                   "value_min": "0",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             }
@@ -514,14 +544,16 @@
                   "property_name": "SetTemperature",
                   "property_unit": "http://si-digital-framework.org/SI/units/degreeCelsius",
                   "value_min": "24.13",
-                  "value_max": "62.64"
+                  "value_max": "62.64",
+                  "value_type": "range"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "HoldingTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "70",
-                  "value_max": "543"
+                  "value_max": "543",
+                  "value_type": "range"
                 }
               ]
             },
@@ -533,14 +565,16 @@
                   "property_name": "SetTemperature",
                   "property_unit": "http://si-digital-framework.org/SI/units/degreeCelsius",
                   "value_min": "20.67",
-                  "value_max": "64.8"
+                  "value_max": "64.8",
+                  "value_type": "range"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "HoldingTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "188",
-                  "value_max": "409"
+                  "value_max": "409",
+                  "value_type": "range"
                 }
               ]
             }
@@ -581,15 +615,19 @@
                   "property_id": "http://qudt.org/vocab/quantitykind/RotationalVelocity",
                   "property_name": "RevolutionsPerMinute",
                   "property_unit": "http://qudt.org/vocab/unit/REV-PER-MIN",
-                  "value_min": null,
-                  "value_max": null
+                  "values": [
+                    200.0,
+                    290.0
+                  ],
+                  "value_type": "discrete_set"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "PulseTimeHigh",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "1",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             }
@@ -619,7 +657,8 @@
                   "property_name": "Litre",
                   "property_unit": "http://si-digital-framework.org/SI/units/litre",
                   "value_min": "0",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             }
@@ -657,14 +696,16 @@
                   "property_name": "SetTemperature",
                   "property_unit": "http://si-digital-framework.org/SI/units/degreeCelsius",
                   "value_min": "0",
-                  "value_max": "100"
+                  "value_max": "100",
+                  "value_type": "range"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "HoldingTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": "600"
+                  "value_max": "600",
+                  "value_type": "range"
                 }
               ]
             },
@@ -676,14 +717,16 @@
                   "property_name": "SetTemperature",
                   "property_unit": "http://si-digital-framework.org/SI/units/degreeCelsius",
                   "value_min": "0",
-                  "value_max": "100"
+                  "value_max": "100",
+                  "value_type": "range"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "HoldingTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": "600"
+                  "value_max": "600",
+                  "value_type": "range"
                 }
               ]
             },
@@ -695,14 +738,16 @@
                   "property_name": "SetTemperature",
                   "property_unit": "http://si-digital-framework.org/SI/units/degreeCelsius",
                   "value_min": "0",
-                  "value_max": "100"
+                  "value_max": "100",
+                  "value_type": "range"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "HoldingTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": "600"
+                  "value_max": "600",
+                  "value_type": "range"
                 }
               ]
             }
@@ -743,15 +788,19 @@
                   "property_id": "http://qudt.org/vocab/quantitykind/RotationalVelocity",
                   "property_name": "RevolutionsPerMinute",
                   "property_unit": "http://qudt.org/vocab/unit/REV-PER-MIN",
-                  "value_min": null,
-                  "value_max": null
+                  "values": [
+                    200.0,
+                    290.0
+                  ],
+                  "value_type": "discrete_set"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "PulseTimeHigh",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "1",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             }
@@ -781,7 +830,8 @@
                   "property_name": "Litre",
                   "property_unit": "http://si-digital-framework.org/SI/units/litre",
                   "value_min": "0",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             }
@@ -818,14 +868,16 @@
                   "property_name": "SetTemperature",
                   "property_unit": "http://si-digital-framework.org/SI/units/degreeCelsius",
                   "value_min": "22.58",
-                  "value_max": "75.57"
+                  "value_max": "75.57",
+                  "value_type": "range"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "HoldingTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "33",
-                  "value_max": "567"
+                  "value_max": "567",
+                  "value_type": "range"
                 }
               ]
             },
@@ -837,14 +889,16 @@
                   "property_name": "SetTemperature",
                   "property_unit": "http://si-digital-framework.org/SI/units/degreeCelsius",
                   "value_min": "24.6",
-                  "value_max": "66.8"
+                  "value_max": "66.8",
+                  "value_type": "range"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "HoldingTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "85",
-                  "value_max": "475"
+                  "value_max": "475",
+                  "value_type": "range"
                 }
               ]
             }
@@ -887,15 +941,19 @@
                   "property_id": "http://qudt.org/vocab/quantitykind/RotationalVelocity",
                   "property_name": "RevolutionsPerMinute",
                   "property_unit": "http://qudt.org/vocab/unit/REV-PER-MIN",
-                  "value_min": null,
-                  "value_max": null
+                  "values": [
+                    200.0,
+                    300.0
+                  ],
+                  "value_type": "discrete_set"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "StirringTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             },
@@ -906,15 +964,19 @@
                   "property_id": "http://qudt.org/vocab/quantitykind/RotationalVelocity",
                   "property_name": "RevolutionsPerMinute",
                   "property_unit": "http://qudt.org/vocab/unit/REV-PER-MIN",
-                  "value_min": null,
-                  "value_max": null
+                  "values": [
+                    200.0,
+                    300.0
+                  ],
+                  "value_type": "discrete_set"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "PulseTimeHigh",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "1",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             },
@@ -925,15 +987,19 @@
                   "property_id": "http://qudt.org/vocab/quantitykind/RotationalVelocity",
                   "property_name": "RevolutionsPerMinute",
                   "property_unit": "http://qudt.org/vocab/unit/REV-PER-MIN",
-                  "value_min": null,
-                  "value_max": null
+                  "values": [
+                    200.0,
+                    300.0
+                  ],
+                  "value_type": "discrete_set"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "StirringTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             }
@@ -963,7 +1029,8 @@
                   "property_name": "Litre",
                   "property_unit": "http://si-digital-framework.org/SI/units/litre",
                   "value_min": "0",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             }
@@ -1001,14 +1068,16 @@
                   "property_name": "SetTemperature",
                   "property_unit": "http://si-digital-framework.org/SI/units/degreeCelsius",
                   "value_min": "0",
-                  "value_max": "100"
+                  "value_max": "100",
+                  "value_type": "range"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "HoldingTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": "600"
+                  "value_max": "600",
+                  "value_type": "range"
                 }
               ]
             },
@@ -1020,14 +1089,16 @@
                   "property_name": "SetTemperature",
                   "property_unit": "http://si-digital-framework.org/SI/units/degreeCelsius",
                   "value_min": "0",
-                  "value_max": "100"
+                  "value_max": "100",
+                  "value_type": "range"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "HoldingTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": "600"
+                  "value_max": "600",
+                  "value_type": "range"
                 }
               ]
             },
@@ -1039,14 +1110,16 @@
                   "property_name": "SetTemperature",
                   "property_unit": "http://si-digital-framework.org/SI/units/degreeCelsius",
                   "value_min": "0",
-                  "value_max": "100"
+                  "value_max": "100",
+                  "value_type": "range"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "HoldingTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": "600"
+                  "value_max": "600",
+                  "value_type": "range"
                 }
               ]
             }
@@ -1089,15 +1162,19 @@
                   "property_id": "http://qudt.org/vocab/quantitykind/RotationalVelocity",
                   "property_name": "RevolutionsPerMinute",
                   "property_unit": "http://qudt.org/vocab/unit/REV-PER-MIN",
-                  "value_min": null,
-                  "value_max": null
+                  "values": [
+                    200.0,
+                    300.0
+                  ],
+                  "value_type": "discrete_set"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "StirringTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             },
@@ -1108,15 +1185,19 @@
                   "property_id": "http://qudt.org/vocab/quantitykind/RotationalVelocity",
                   "property_name": "RevolutionsPerMinute",
                   "property_unit": "http://qudt.org/vocab/unit/REV-PER-MIN",
-                  "value_min": null,
-                  "value_max": null
+                  "values": [
+                    200.0,
+                    300.0
+                  ],
+                  "value_type": "discrete_set"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "PulseTimeHigh",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "1",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             },
@@ -1127,15 +1208,19 @@
                   "property_id": "http://qudt.org/vocab/quantitykind/RotationalVelocity",
                   "property_name": "RevolutionsPerMinute",
                   "property_unit": "http://qudt.org/vocab/unit/REV-PER-MIN",
-                  "value_min": null,
-                  "value_max": null
+                  "values": [
+                    200.0,
+                    300.0
+                  ],
+                  "value_type": "discrete_set"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "StirringTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             }
@@ -1165,7 +1250,8 @@
                   "property_name": "Litre",
                   "property_unit": "http://si-digital-framework.org/SI/units/litre",
                   "value_min": "0",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             }
@@ -1201,14 +1287,16 @@
                   "property_name": "SetTemperature",
                   "property_unit": "http://si-digital-framework.org/SI/units/degreeCelsius",
                   "value_min": "24.81",
-                  "value_max": "65.67"
+                  "value_max": "65.67",
+                  "value_type": "range"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "HoldingTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": "483"
+                  "value_max": "483",
+                  "value_type": "range"
                 }
               ]
             }
@@ -1251,15 +1339,19 @@
                   "property_id": "http://qudt.org/vocab/quantitykind/RotationalVelocity",
                   "property_name": "RevolutionsPerMinute",
                   "property_unit": "http://qudt.org/vocab/unit/REV-PER-MIN",
-                  "value_min": null,
-                  "value_max": null
+                  "values": [
+                    200.0,
+                    300.0
+                  ],
+                  "value_type": "discrete_set"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "StirringTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             },
@@ -1270,15 +1362,19 @@
                   "property_id": "http://qudt.org/vocab/quantitykind/RotationalVelocity",
                   "property_name": "RevolutionsPerMinute",
                   "property_unit": "http://qudt.org/vocab/unit/REV-PER-MIN",
-                  "value_min": null,
-                  "value_max": null
+                  "values": [
+                    200.0,
+                    300.0
+                  ],
+                  "value_type": "discrete_set"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "PulseTimeHigh",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "1",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             },
@@ -1289,15 +1385,19 @@
                   "property_id": "http://qudt.org/vocab/quantitykind/RotationalVelocity",
                   "property_name": "RevolutionsPerMinute",
                   "property_unit": "http://qudt.org/vocab/unit/REV-PER-MIN",
-                  "value_min": null,
-                  "value_max": null
+                  "values": [
+                    200.0,
+                    300.0
+                  ],
+                  "value_type": "discrete_set"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "StirringTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             }
@@ -1327,7 +1427,8 @@
                   "property_name": "Litre",
                   "property_unit": "http://si-digital-framework.org/SI/units/litre",
                   "value_min": "0",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             }
@@ -1364,14 +1465,16 @@
                   "property_name": "SetTemperature",
                   "property_unit": "http://si-digital-framework.org/SI/units/degreeCelsius",
                   "value_min": "24.13",
-                  "value_max": "62.64"
+                  "value_max": "62.64",
+                  "value_type": "range"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "HoldingTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "70",
-                  "value_max": "543"
+                  "value_max": "543",
+                  "value_type": "range"
                 }
               ]
             },
@@ -1383,14 +1486,16 @@
                   "property_name": "SetTemperature",
                   "property_unit": "http://si-digital-framework.org/SI/units/degreeCelsius",
                   "value_min": "20.67",
-                  "value_max": "64.8"
+                  "value_max": "64.8",
+                  "value_type": "range"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "HoldingTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "188",
-                  "value_max": "409"
+                  "value_max": "409",
+                  "value_type": "range"
                 }
               ]
             }
@@ -1433,15 +1538,19 @@
                   "property_id": "http://qudt.org/vocab/quantitykind/RotationalVelocity",
                   "property_name": "RevolutionsPerMinute",
                   "property_unit": "http://qudt.org/vocab/unit/REV-PER-MIN",
-                  "value_min": null,
-                  "value_max": null
+                  "values": [
+                    200.0,
+                    300.0
+                  ],
+                  "value_type": "discrete_set"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "StirringTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             },
@@ -1452,15 +1561,19 @@
                   "property_id": "http://qudt.org/vocab/quantitykind/RotationalVelocity",
                   "property_name": "RevolutionsPerMinute",
                   "property_unit": "http://qudt.org/vocab/unit/REV-PER-MIN",
-                  "value_min": null,
-                  "value_max": null
+                  "values": [
+                    200.0,
+                    300.0
+                  ],
+                  "value_type": "discrete_set"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "PulseTimeHigh",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "1",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             },
@@ -1471,15 +1584,19 @@
                   "property_id": "http://qudt.org/vocab/quantitykind/RotationalVelocity",
                   "property_name": "RevolutionsPerMinute",
                   "property_unit": "http://qudt.org/vocab/unit/REV-PER-MIN",
-                  "value_min": null,
-                  "value_max": null
+                  "values": [
+                    200.0,
+                    300.0
+                  ],
+                  "value_type": "discrete_set"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "StirringTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             }
@@ -1509,7 +1626,8 @@
                   "property_name": "Litre",
                   "property_unit": "http://si-digital-framework.org/SI/units/litre",
                   "value_min": "0",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             }
@@ -1546,14 +1664,16 @@
                   "property_name": "SetTemperature",
                   "property_unit": "http://si-digital-framework.org/SI/units/degreeCelsius",
                   "value_min": "22.58",
-                  "value_max": "75.57"
+                  "value_max": "75.57",
+                  "value_type": "range"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "HoldingTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "33",
-                  "value_max": "567"
+                  "value_max": "567",
+                  "value_type": "range"
                 }
               ]
             },
@@ -1565,14 +1685,16 @@
                   "property_name": "SetTemperature",
                   "property_unit": "http://si-digital-framework.org/SI/units/degreeCelsius",
                   "value_min": "24.6",
-                  "value_max": "66.8"
+                  "value_max": "66.8",
+                  "value_type": "range"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "HoldingTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "85",
-                  "value_max": "475"
+                  "value_max": "475",
+                  "value_type": "range"
                 }
               ]
             }
@@ -1615,15 +1737,19 @@
                   "property_id": "http://qudt.org/vocab/quantitykind/RotationalVelocity",
                   "property_name": "RevolutionsPerMinute",
                   "property_unit": "http://qudt.org/vocab/unit/REV-PER-MIN",
-                  "value_min": null,
-                  "value_max": null
+                  "values": [
+                    200.0,
+                    300.0
+                  ],
+                  "value_type": "discrete_set"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "StirringTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             },
@@ -1634,15 +1760,19 @@
                   "property_id": "http://qudt.org/vocab/quantitykind/RotationalVelocity",
                   "property_name": "RevolutionsPerMinute",
                   "property_unit": "http://qudt.org/vocab/unit/REV-PER-MIN",
-                  "value_min": null,
-                  "value_max": null
+                  "values": [
+                    200.0,
+                    300.0
+                  ],
+                  "value_type": "discrete_set"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "PulseTimeHigh",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "1",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             },
@@ -1653,15 +1783,19 @@
                   "property_id": "http://qudt.org/vocab/quantitykind/RotationalVelocity",
                   "property_name": "RevolutionsPerMinute",
                   "property_unit": "http://qudt.org/vocab/unit/REV-PER-MIN",
-                  "value_min": null,
-                  "value_max": null
+                  "values": [
+                    200.0,
+                    300.0
+                  ],
+                  "value_type": "discrete_set"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "StirringTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             }
@@ -1691,7 +1825,8 @@
                   "property_name": "Litre",
                   "property_unit": "http://si-digital-framework.org/SI/units/litre",
                   "value_min": "0",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             }
@@ -1729,14 +1864,16 @@
                   "property_name": "SetTemperature",
                   "property_unit": "http://si-digital-framework.org/SI/units/degreeCelsius",
                   "value_min": "25.75",
-                  "value_max": "65"
+                  "value_max": "65",
+                  "value_type": "range"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "HoldingTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": "453"
+                  "value_max": "453",
+                  "value_type": "range"
                 }
               ]
             },
@@ -1748,14 +1885,16 @@
                   "property_name": "SetTemperature",
                   "property_unit": "http://si-digital-framework.org/SI/units/degreeCelsius",
                   "value_min": "0",
-                  "value_max": "64"
+                  "value_max": "64",
+                  "value_type": "range"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "HoldingTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": "600"
+                  "value_max": "600",
+                  "value_type": "range"
                 }
               ]
             },
@@ -1767,14 +1906,16 @@
                   "property_name": "SetTemperature",
                   "property_unit": "http://si-digital-framework.org/SI/units/degreeCelsius",
                   "value_min": "0",
-                  "value_max": "100"
+                  "value_max": "100",
+                  "value_type": "range"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "HoldingTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": "600"
+                  "value_max": "600",
+                  "value_type": "range"
                 }
               ]
             }
@@ -1817,15 +1958,19 @@
                   "property_id": "http://qudt.org/vocab/quantitykind/RotationalVelocity",
                   "property_name": "RevolutionsPerMinute",
                   "property_unit": "http://qudt.org/vocab/unit/REV-PER-MIN",
-                  "value_min": null,
-                  "value_max": null
+                  "values": [
+                    200.0,
+                    300.0
+                  ],
+                  "value_type": "discrete_set"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "StirringTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             },
@@ -1836,15 +1981,19 @@
                   "property_id": "http://qudt.org/vocab/quantitykind/RotationalVelocity",
                   "property_name": "RevolutionsPerMinute",
                   "property_unit": "http://qudt.org/vocab/unit/REV-PER-MIN",
-                  "value_min": null,
-                  "value_max": null
+                  "values": [
+                    200.0,
+                    300.0
+                  ],
+                  "value_type": "discrete_set"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "PulseTimeHigh",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "1",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             },
@@ -1855,15 +2004,19 @@
                   "property_id": "http://qudt.org/vocab/quantitykind/RotationalVelocity",
                   "property_name": "RevolutionsPerMinute",
                   "property_unit": "http://qudt.org/vocab/unit/REV-PER-MIN",
-                  "value_min": null,
-                  "value_max": null
+                  "values": [
+                    200.0,
+                    300.0
+                  ],
+                  "value_type": "discrete_set"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "StirringTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             }
@@ -1893,7 +2046,8 @@
                   "property_name": "Litre",
                   "property_unit": "http://si-digital-framework.org/SI/units/litre",
                   "value_min": "0",
-                  "value_max": null
+                  "value_max": null,
+                  "value_type": "range"
                 }
               ]
             }
@@ -1929,14 +2083,16 @@
                   "property_name": "SetTemperature",
                   "property_unit": "http://si-digital-framework.org/SI/units/degreeCelsius",
                   "value_min": "20.29",
-                  "value_max": "69.3"
+                  "value_max": "69.3",
+                  "value_type": "range"
                 },
                 {
                   "property_id": "http://www.w3.org/2006/time#Duration",
                   "property_name": "HoldingTime",
                   "property_unit": "http://si-digital-framework.org/SI/units/second",
                   "value_min": "0",
-                  "value_max": "383"
+                  "value_max": "383",
+                  "value_type": "range"
                 }
               ]
             }

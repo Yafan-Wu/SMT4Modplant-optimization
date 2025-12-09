@@ -4,36 +4,10 @@ from pathlib import Path
 
 # Pfade zu den hochgeladenen Dateien
 files = [
-    "2025-04_HC10.xml",
-    "2025-04_HC11.xml",
-    "2025-04_HC12.xml",
-    "2025-04_HC13.xml",
-    "2025-04_HC14.xml",
-    "2025-04_HC15.xml",
-    "2025-04_HC16.xml",
-    "2025-04_HC17.xml",
-    "2025-04_HC18.xml",
+
     "2025-04_HC19.xml",
-    "2025-04_HC20.xml",
-    "2025-04_HC21.xml",
-    "2025-04_HC22.xml",
-    "2025-04_HC23.xml",
-    "2025-04_HC24.xml",
-    "2025-04_HC25.xml",
-    "2025-04_HC26.xml",
-    "2025-04_HC27.xml",
-    "2025-04_HC28.xml",
     "2025-04_HC29.xml",
-    "2025-04_HC30.xml",
-    "2025-04_HC31.xml",
-    "2025-04_HC32.xml",
-    "2025-04_HC33.xml",
-    "2025-04_HC34.xml",
-    "2025-04_HC35.xml",
-    "2025-04_HC36.xml",
-    "2025-04_HC37.xml",
-    "2025-04_HC38.xml",
-    "2025-04_HC39.xml",
+
 
 
 ]
